@@ -1,7 +1,7 @@
 {
   "project": {
     "version": "1.0.0-beta.26",
-    "name": "routing-angular-cli"
+    "name": "angular2-routing"
   },
   "apps": [
     {
