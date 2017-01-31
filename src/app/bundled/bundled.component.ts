@@ -10,6 +10,7 @@ export class BundledComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.debug("init");
   }
 
 }

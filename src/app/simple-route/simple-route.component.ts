@@ -10,6 +10,7 @@ export class SimpleRouteComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.debug("SimpleRouteComponent init");
   }
 
 }

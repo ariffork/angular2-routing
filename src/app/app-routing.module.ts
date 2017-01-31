@@ -14,10 +14,8 @@ export const routes: Routes = [
   },
   {
     path: 'bundled',
-    loadChildren: loadBundledModule
-    // Comment loadChildren above and uncomment the line below to get non lazy loading working with AoT
-    // Do not delete / comment the  `loadBundledModule` declaration or the module will be lazy loaded
-    // loadChildren: './bundled/bundled.module#BundledModule'
+    loadChildren: loadBundledModule // not lazy load
+    // loadChildren: './bundled/bundled.module#BundledModule' // lazy load
   },
   {
     path: 'lazy',
